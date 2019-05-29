@@ -8,6 +8,8 @@ class Student < ActiveRecord::Base
       print "active"
     elsif @self.active == false 
       print "inactive"
+    else
+      print "whoops"
     end
   end
 end
