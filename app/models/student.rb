@@ -4,9 +4,9 @@ class Student < ActiveRecord::Base
   end
   
   def active?
-    if @student.active == true 
+    if self.active == true 
       print "active"
-    elsif @student.active == false 
+    elsif @self.active == false 
       print "inactive"
     end
   end
