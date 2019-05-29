@@ -7,7 +7,7 @@ class Student < ActiveRecord::Base
     if self.active == true 
       'This student is currently active.'
     else self.active == false 
-      'This student is currently inactive'
+      'This student is currently inactive.'
     end
   end
 end
