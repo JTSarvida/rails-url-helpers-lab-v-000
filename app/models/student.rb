@@ -6,7 +6,7 @@ class Student < ActiveRecord::Base
   def active?
     if self.active == true 
       print "active"
-    elsif @self.active == false 
+    elsif self.active == false 
       print "inactive"
     else
       print "whoops"
