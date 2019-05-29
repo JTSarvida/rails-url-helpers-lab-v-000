@@ -5,9 +5,9 @@ class Student < ActiveRecord::Base
   
   def active?
     if self.active == true 
-      prints "This student is currently active."
+      print "This student is currently active."
     else
-      prints "This student is currently inactive"
+      print "This student is currently inactive"
     end
   end
 end
