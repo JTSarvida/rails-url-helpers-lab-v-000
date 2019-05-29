@@ -5,11 +5,11 @@ class Student < ActiveRecord::Base
   
   def active?
     if self.active == true 
-      puts "This student is currently active."
+      'This student is currently active.'
     elsif self.active == false 
-      puts "This student is currently inactive"
+      'This student is currently inactive'
     else
-      puts "ugh"
+      'ugh'
     end
   end
 end
